@@ -30,7 +30,7 @@ This library does NOT depend on the browser's canvas functionality, and therefor
 For now, the input string must be limited to the set of characters defined by the 256 ASCII code table.
 
 ## WHY?!
-You might be asking yourself, "Why in the world would anyone want to use this?!" Some mediums of communication don't allow users to attach zipfiles. A good example is SMS. However, most SMS WILL allow users to send / receive images.
+You might be asking yourself, "Why in the world would anyone want to use this?!" Some mediums of communication don't allow users to attach zipfiles. A good example is MMS. However, MMS WILL allow users to send / receive images.
 
 Also, I got bored on a Friday afternoon...
 
