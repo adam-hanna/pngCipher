@@ -27,10 +27,12 @@ This library can be used to encode any string to a format that can be displayed 
 
 This library does NOT depend on the browser's canvas functionality, and therefore WILL produce identical hashes accross different browsers [[1]](http://stackoverflow.com/questions/26615580/is-canvas-getimagedata-method-machine-browser-dependent)[[2]](http://stackoverflow.com/questions/36273990/canvas2d-todataurl-different-output-on-different-browser/36274211)
 
-For now, the input string must be limited to the set of characters defined by the 256 ASCII code table.
+Please note a few things:
+1. For now, the input string must be limited to the set of characters defined by the 256 ASCII code table.
+2. This is in NO WAY a secure hashing method. If you want to securely store something in a png, you'll need to first securely hash your string before calling the encoder.
 
 ## WHY?!
-You might be asking yourself, "Why in the world would anyone want to use this?!" Some mediums of communication don't allow users to attach zipfiles. A good example is MMS. However, MMS WILL allow users to send / receive images.
+You might be asking yourself, "Why in the world would anyone want to use this?!" Well, one reason is that some mediums of communication don't allow users to attach zipfiles. A good example is MMS. However, MMS WILL allow users to send / receive images. Using this library, large amounts of data could be sent over MMS as images.
 
 Also, I got bored on a Friday afternoon...
 
