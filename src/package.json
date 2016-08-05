@@ -1,0 +1,14 @@
+{
+  "name": "test-pngjs",
+  "version": "1.0.0",
+  "description": "A tool for encoding / decoding data to / from a png format. Please note that this is not a secure hashing algorithm!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Hanna <ahanna@alumni.mines.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "pngjs": "^3.0.0"
+  }
+}
