@@ -28,7 +28,7 @@ This library can be used to encode any string to a format that can be displayed 
 This library does NOT depend on the browser's canvas functionality, and therefore WILL produce identical hashes accross different browsers [[1]](http://stackoverflow.com/questions/26615580/is-canvas-getimagedata-method-machine-browser-dependent)[[2]](http://stackoverflow.com/questions/36273990/canvas2d-todataurl-different-output-on-different-browser/36274211)
 
 Below is the introduction of [Marijn Haverbeke's excellent book, "Eloquent JavaScript"](http://eloquentjavascript.net/00_intro.html) in png format:
-(./examples/openThisFile.png)
+![Eloquent JS](./examples/openThisFile.png)
 
 Please note a few things:
 1. For now, the input string must be limited to the set of characters defined by the 256 ASCII code table.
