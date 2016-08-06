@@ -33,7 +33,7 @@ Below is the introduction of [Marijn Haverbeke's excellent book, "Eloquent JavaS
 
 Please note a few things:
 
-1. For now, the input string must be limited to the set of characters defined by the 256 ASCII code table.
+1. For now, the input string must be limited to the first 255 characters (i.e. codes 0 - 254 ) as defined by the 256 ASCII code table.
 
 2. This is in NO WAY a secure hashing method. If you want to securely store something in a png, you'll need to first securely hash your string before calling the encoder.
 
